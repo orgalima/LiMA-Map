@@ -1,13 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="2021.02.15" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
- <tileset firstgid="1" name="https___c-space_maps_at_rc3_world__bckgr" tilewidth="32" tileheight="32" tilecount="100" columns="10">
-  <image source="https___c-space_maps_at_rc3_world__bckgr.png" width="320" height="320"/>
- </tileset>
- <tileset firstgid="101" name="https___c3kidspace_maps_at_rc3_world__tiles_scifitiles-sheet" tilewidth="77" tileheight="77" tilecount="10" columns="5">
+ <tileset firstgid="1" name="https___c3kidspace_maps_at_rc3_world__tiles_scifitiles-sheet" tilewidth="77" tileheight="77" tilecount="10" columns="5">
   <image source="https___c3kidspace_maps_at_rc3_world__tiles_scifitiles-sheet.png" width="448" height="192"/>
  </tileset>
- <tileset firstgid="111" name="https___bytewerk_maps_at_rc3_world__owl_cija_32x32_basic_CC0" tilewidth="32" tileheight="32" tilecount="600" columns="20">
+ <tileset firstgid="11" name="https___bytewerk_maps_at_rc3_world__owl_cija_32x32_basic_CC0" tilewidth="32" tileheight="32" tilecount="600" columns="20">
   <image source="https___bytewerk_maps_at_rc3_world__owl_cija_32x32_basic_CC0.png" width="640" height="960"/>
+ </tileset>
+ <tileset firstgid="611" name="https___c-space_maps_at_rc3_world__bckgr" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="https___c-space_maps_at_rc3_world__bckgr.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="711" name="https___chaos-amsterdam_maps_at_rc3_world__banners" tilewidth="32" tileheight="32" tilecount="36" columns="6">
+  <image source="https___chaos-amsterdam_maps_at_rc3_world__banners.png" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="747" name="https___chaospott_maps_at_rc3_world__tilesets_32x32Sci-Fitileset_tileset" tilewidth="32" tileheight="32" tilecount="512" columns="32">
+  <image source="https___chaospott_maps_at_rc3_world__tilesets_32x32Sci-Fitileset_tileset.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="1259" name="https___chaostreff-bern_maps_at_rc3_world_Chaostreffbern" tilewidth="32" tileheight="32" tilecount="400" columns="20">
+  <image source="https___chaostreff-bern_maps_at_rc3_world_Chaostreffbern.png" width="640" height="640"/>
+ </tileset>
+ <tileset firstgid="1659" name="https___computerwerk_maps_at_rc3_world__BUNDjugend_Banner" tilewidth="32" tileheight="32" tilecount="12" columns="6">
+  <image source="https___computerwerk_maps_at_rc3_world__BUNDjugend_Banner.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="1671" name="https___computerwerk_maps_at_rc3_world__BUNDjugend_Baumhaus" tilewidth="32" tileheight="32" tilecount="16" columns="4">
+  <image source="https___computerwerk_maps_at_rc3_world__BUNDjugend_Baumhaus.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="1687" name="https___dachgeschoss_maps_at_rc3_world__tiles_dg-002" tilewidth="32" tileheight="32" tilecount="512" columns="16">
+  <image source="https___dachgeschoss_maps_at_rc3_world__tiles_dg-002.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="2199" name="https___devlol_maps_at_rc3_world__cert_safety" tilewidth="32" tileheight="32" tilecount="1024" columns="16">
+  <image source="https___devlol_maps_at_rc3_world__cert_safety.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="3223" name="https___digitalcourage_maps_at_rc3_world__tilesets_modern_interiors_Theme_Sorter_32x32_9_Fishing_32x32" tilewidth="32" tileheight="32" tilecount="432" columns="16">
+  <image source="https___digitalcourage_maps_at_rc3_world__tilesets_modern_interiors_Theme_Sorter_32x32_9_Fishing_32x32.png" width="512" height="864"/>
+ </tileset>
+ <tileset firstgid="3655" name="https___digitalcourage_maps_at_rc3_world__tilesets_modern_office_Office_interiors_32x32" tilewidth="32" tileheight="32" tilecount="528" columns="22">
+  <image source="https___digitalcourage_maps_at_rc3_world__tilesets_modern_office_Office_interiors_32x32.png" width="704" height="768"/>
+ </tileset>
+ <tileset firstgid="4183" name="https___engelkittchen_maps_at_rc3_world__bckstgeset" tilewidth="32" tileheight="32" tilecount="2048" columns="64">
+  <image source="https___engelkittchen_maps_at_rc3_world__bckstgeset.png" width="2048" height="1024"/>
+ </tileset>
+ <tileset firstgid="6231" name="https___engelkittchen_maps_at_rc3_world__exit-anarchy" tilewidth="32" tileheight="32" tilecount="4" columns="2">
+  <image source="https___engelkittchen_maps_at_rc3_world__exit-anarchy.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="6235" name="https___fixme_maps_at_rc3_world__tiles_png_02_mate_crates_1" tilewidth="32" tileheight="32" tilecount="3" columns="1">
+  <image source="https___fixme_maps_at_rc3_world__tiles_png_02_mate_crates_1.png" width="32" height="96"/>
  </tileset>
  <layer id="1" name="Kachelebene 1" width="100" height="100">
   <data encoding="csv">
